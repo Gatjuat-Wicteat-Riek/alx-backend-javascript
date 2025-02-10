@@ -1,10 +1,6 @@
-/* eslint-disable jest/valid-expect */
-/* eslint-disable no-unused-expressions */
-/* eslint-disable jest/prefer-expect-assertions */
-/* eslint-disable prefer-destructuring */
 const sinon = require('sinon');
-const expect = require('chai').expect;
 const Utils = require('./utils');
+const { expect } = require('chai');
 const sendPaymentRequestToApi = require('./3-payment');
 
 describe('sendPaymentRequestToApi', () => {
